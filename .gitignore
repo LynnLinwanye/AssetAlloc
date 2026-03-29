@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Output figures and generated files
+output/*.png
+output/*.jpg
+output/*.jpeg
+output/*.pdf
+output/*.svg
+output/*.log
+
+# Optional: keep folder but ignore generated contents
+!output/.gitkeep
