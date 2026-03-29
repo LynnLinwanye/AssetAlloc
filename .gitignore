@@ -23,17 +23,3 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
-
-# Logs
-*.log
-
-# Output figures and generated files
-output/*.png
-output/*.jpg
-output/*.jpeg
-output/*.pdf
-output/*.svg
-output/*.log
-
-# Optional: keep folder but ignore generated contents
-!output/.gitkeep
