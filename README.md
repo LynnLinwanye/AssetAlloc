@@ -420,7 +420,7 @@ pip install -r requirements.txt
 
 ## 7. 运行说明
 
-为保证日志与图像输出统一存放，建议首先创建输出目录。
+为保证日志与图像输出统一存放，建议首先创建输出目录。该项目当前仅支持Linux / macOS.
 
 ### Linux / macOS
 
@@ -428,11 +428,6 @@ pip install -r requirements.txt
 mkdir -p output
 ```
 
-### Windows PowerShell
-
-```powershell
-New-Item -ItemType Directory -Force output
-```
 
 ---
 
@@ -446,11 +441,7 @@ New-Item -ItemType Directory -Force output
 python run_all.py > output/run_all.log 2>&1
 ```
 
-#### Windows PowerShell
 
-```powershell
-python .\run_all.py *> .\output\run_all.log
-```
 
 运行内容包括：
 
@@ -470,11 +461,7 @@ python .\run_all.py *> .\output\run_all.log
 python verify.py > output/verify.log 2>&1
 ```
 
-#### Windows PowerShell
 
-```powershell
-python .\verify.py *> .\output\verify.log
-```
 
 ---
 
@@ -486,11 +473,7 @@ python .\verify.py *> .\output\verify.log
 python demo_multi.py > output/demo_multi.log 2>&1
 ```
 
-#### Windows PowerShell
 
-```powershell
-python .\demo_multi.py *> .\output\demo_multi.log
-```
 
 ---
 
@@ -614,15 +597,7 @@ python verify.py > output/verify.log 2>&1
 python demo_multi.py > output/demo_multi.log 2>&1
 ```
 
-### Windows PowerShell
 
-```powershell
-New-Item -ItemType Directory -Force output
-
-python .\run_all.py *> .\output\run_all.log
-python .\verify.py *> .\output\verify.log
-python .\demo_multi.py *> .\output\demo_multi.log
-```
 
 ---
 
