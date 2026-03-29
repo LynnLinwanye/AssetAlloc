@@ -1,6 +1,8 @@
 # 离散时间多资产配置问题的近似动态规划求解  
 ## ——基于 CARA 效用的 Fitted Value Iteration 实现与验证
 
+> 组员：Lin Wanye林宛烨、Zhang Ziyan张紫嫣
+
 ---
 
 ## 1. 项目简介
